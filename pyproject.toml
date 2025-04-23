@@ -11,12 +11,15 @@ python-dotenv = "^1.1.0"
 psycopg2-binary = "^2.9.10"
 pillow = "^11.1.0"
 django = "^5.2"
+djangorestframework = "^3.16.0"
+drf-yasg = "^1.21.10"
 
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.1.0"
 flake8 = "^7.2.0"
 isort = "^6.0.1"
+coverage = "^7.8.0"
 
 [build-system]
 requires = ["poetry-core"]
